@@ -6,4 +6,4 @@ with open( r'log_files\201811123011.log', 'r', encoding='utf8') as f:
         num = num[4:]
         if num == '201811123011':
             number = number + 1
-print("于梦丽的打卡次数为：{}".format(number))
+print("打卡次数为：{}".format(number))
